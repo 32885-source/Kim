@@ -1,11 +1,46 @@
 body {
-    background-color: lightpink;
+    background-color: #72b39f
 }
 
 h1 {
-    color: darkgreen;
+    font-style: oblique;
+    color: #305a54;
+}
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    color: #305a54;
 }
 
 p {
-    font-size: 17px;
+    font-synthesis-style: unset ;
+    font-size: 14pt;
+    color: #305a54;
+}
+.row{
+    background-color: ivory ;
+    padding:20pt ;
+    border:5pt ;
+    margin:10px ;
+}
+
+.earth{
+    background-color: rgb(243, 149, 165);
+    padding: 20pt;
+    border: 5pt;
+    margin: 10px;
+}
+
+.real{
+    background-color: rgb(206, 241, 255);
+    padding: 20pt;
+    border: 5pt;
+    margin: 10px;
+}
+
+.good{
+    background-color: rgb(96, 139, 231);
+    padding: 20pt;
+    border: 5pt;
+    margin: 10px;
 }
