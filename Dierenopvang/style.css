@@ -5,11 +5,16 @@ body {
 h1 {
     font-style: oblique;
     color: #305a54;
-}
+}  
 h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    font-family: Cambria, Cochin, Georgia, Times;
     color: #305a54;
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times;
+    color: #305a54;
+    font-size: larger;
 }
 
 p {
