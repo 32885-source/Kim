@@ -1,7 +1,3 @@
-body {
-    background-color: #72b39f
-}
-
 h1 {
     font-style: oblique;
     color: #305a54;
@@ -78,3 +74,14 @@ img{
     margin: 10px;
     border-radius: 35px;
 }
+body {
+ display: grid;
+ grid-template-areas:
+ "header header"
+ "aside menu"
+ "aside main"
+ "footer footer";
+}
+nav {
+ grid-area: menu;
+} 
